@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title> Wilfried Langry Web Dev</title>
+    <meta charset="UTF8"/>
+    <link rel="shortcut icon" type="image/x-icon" href="icon.png" />
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="tox-progress.css"/>
+    <link rel="icon" href="images/avatar.ico" />
+    <link rel="stylesheet" href="progresscircle.css">
+
+
+<!-- Script Smooth Scroll -->  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script>
+
+$(document).ready(function() {
+
+$('.js-scrollTo').on('click', function() { // Au clic sur un élément
+
+var page = $(this).attr('href'); // Page cible
+
+var speed = 750; // Durée de l'animation (en ms)
+
+$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+
+return false;
+
+});
+
+});
+
+</script>
+<!-- ==================================================================================== -->
+
+<!-- Script Roues de progression -->
+<script src="progresscircle.js"></script>
+  <script>
+  $(function(){
+  $('.circlechart').circlechart();
+});   
+    </script>  
+
+<!-- ===================================================================================== -->
+
+
+  </head>
+       
+       <div id="haut"></div>
+ 
+       <div class="navbar" id="navbar">
+        <div class="comp"><a class="js-scrollTo btn btn-2" href="#competences">COMPÉTENCES NUMÉRIQUES</a></div>
+    	<div class="exp"><a class="js-scrollTo btn btn-2" href="#experiences">EXPÉRIENCES ET RÉALISATIONS</a></div>
+    	<div class="real"><a class="js-scrollTo btn btn-2" href="#formations">FORMATIONS</a></div>
+    	<div class="cont"><a class="js-scrollTo btn btn-2" href="#contact">CONTACTEZ-MOI</a></div>
+       </div>
+ 
+
+  	<header>   
+  	   <br>
+  	     <img class="photo" src="images/photo.jpg" alt="photo">
+         <div class="titre">
+         <h1>WILFRIED LANGRY</h1>
+         <h2>Développeur Web</h2>
+         <h3>Curiosité - Rigueur - Ténacité</h3>
+  	    <div class="boutons">	
+          <a href="mailto:wilfried.langry@cegetel.net" target="_blank"><img class="email" src="images/email.png" alt="E-mail"></a>
+          <a href="tel:+33673972255"><img class="smartphone" src="images/smartphone.png" alt="Téléphone"></a>
+          <a href="http://www.linkedin.com/in/wilfriedlangry" target="_blank"><img class="linkedin" src="images/linkedin.png" alt="Linkedin"></a>
+          <a href="https://github.com/kleinst02" target="_blank"><img class="github" src="images/github.png" alt="Github"></a>
+          <a href="https://twitter.com/DigitalFollowe3" target="_blank"><img class="twitter" src="images/twitter.png" alt="Twitter"></a>
+        </div>  
+  	  </div>
+  	</header>
+  	
+    
+      <br>
+      
+    <div class="bloc_page" id="bloc_page">
+      <div class="biographie">
+    	<h1>QUI SUIS-JE?</h1>
+    	<p>Vous entendez cette petite musique ? Oui, la petite musique du numérique et de la création web ? Je suis sûr que vous l'avez entendue un jour vous aussi. Après dix ans de management de la Qualité en industrie, cette ritournelle s’est imposée à moi…</p>
+        <p>C’est pourquoi j’ai décidé de m’engager dans une nouvelle aventure, de me réinventer dans un univers en perpétuel mouvement qui me passionne depuis longtemps. Créer des sites et de nouvelles expériences pour les clients et leurs visiteurs, voilà ce qui me motive dorénavant.</p>
+        <p>Pour y arriver, je me consacre pleinement à la préparation du titre professionnel Développeur de sites et d’applications web au sein de la Grande École du Numérique La Manu de Soissons.</p>
+        <p>Je dispose également, à domicile, d'un bureau aménagé et connecté par fibre qui me permet de travailler à distance et d'assister à des visioconférences.</p>
+        <br>
+          <div class="phrase_fin_bio">
+        <p>Pour en savoir plus sur moi, parcourez cette page web codée par mes soins!</p>
+          </div>
+      </div>
+    
+    	<br>
+    	
+    	<!-- Roues des compétences -->
+    	
+    	<div class="competences" id="competences">
+    	  <div class="titre_competences">
+    	    <div class="code_ico"><img src="images/code.png" alt="Code"></div>
+    	    <h1>MES COMPÉTENCES NUMÉRIQUES</h1>
+    	  </div>
+    	<div class="competencescodage">
+        
+        
+
+        <div class="circlechart" 
+             data-percentage="50">
+             HTML5
+        </div>
+
+        <div class="circlechart" 
+             data-percentage="40">
+             CSS3
+        </div>
+
+        <div class="circlechart" 
+             data-percentage="10">
+             PhP
+        </div>
+
+        <div class="circlechart" 
+             data-percentage="40">
+             Photoshop
+        </div>
+
+        <div class="circlechart" 
+             data-percentage="30">
+             InDesign
+        </div>
+
+
+
+        <!-- =========================================================================================== -->
+
+    </div>
+   
+   <br>
+   
+    </div>	
+    <br>
+    
+    <div class="skills">
+      <div class="experiences" id="experiences">
+    	<div class="titre_experiences">
+    	  <div class="quality_ico"><img src="images/quality.png" alt="Expériences"></div>
+    	  <h1>MES EXPÉRIENCES</h1>
+    	</div>
+    	
+    	<br>
+        <h2>Agent de maîtrise Qualité en agro-industries</h2>
+    	<p>J'ai participé au renouvellement annuel de la certification IFS tout en étant Responsable Food Defense de mon unité de production. J'ai également été formé et amené à réaliser des audits internes dans le cadre de notre démarche d'amélioration continue. J'étais également en charge du management de l'équipe qualité au niveau opérationnel. 
+    	Mes qualités d'autonomie, de rigueur et de synthèse m'ont permit de travailler sur des projets transversaux comme la mise en place du Food Defense ou encore la construction de sas de désinfections innovants.</p>
+    	<h2>Qualiticien en agro-industries</h2>
+    	<p>Grâce à ma formation, ma rigueur et mon organisation, je me suis spécilalisé dans le domaine de la Qualité. J'ai commencé par réaliser les contrôles sur les lignes de fabrication, puis les inspections bonnes pratiques de fabrication (BPF) et bonnes pratiques d'hygiène (BPH). Toujours dans un souci d'amélioration continue, je suis monté en compétences en devenant par la suite animateur HACCP et an animant les réunions Qualité hebdomadaires avec l'ensemble du personnel. J'étais également en chage de la gestion documentaire ainsi que des réclamations clients et fournisseurs du site de fabrication.</p>
+    	<h2>Conducteur de ligne en agro-industries</h2>
+    	<p>Au cours de plusieurs missions, j'ai pu apprendre à maîtriser des process de fabrication en industrie agroalimentaire. Ces expériences m'ont permit de d'acquérir la rigueur nécessaire dans le paramètrage des machines et automates servant à la cuisson et au refroidissement des denrées alimentaires. Le suivi des paramètres de fabrication et leur report sur les enregistrements de fabrication constituait également une part importante des compétences acquises lors de ces missions.</p>
+    	
+      </div>	
+  
+    <div class="realisations" id="realisations">
+      <div class="titre_realisations">
+        <div class="portfolio_ico"><img src="images/portfolio.png" alt="Réalisations"></div>
+    	<h1>MES RÉALISATIONS WEB</h1>
+      </div>
+    	<br>
+    	<h2>Site sur l'apnée</h2>
+    	
+
+<div class="grid">
+                    <figure class="effect-julia">
+                        <img src="images/apneepassion.jpg" alt="Apnée Passion"/>
+                        <figcaption>
+                            <div>
+                                <p>Apnée passion</p>
+                                <p>Un site sur mon sport</p>
+                                <p>L'apnée au travers de ses champions et de ses disciplines</p>
+                            </div>
+                            <a href="https://kleinst02.github.io/Passion_Apnee/index.html" target="_blank">Découvrir</a>
+                        </figcaption>            
+                    </figure>
+                </div>
+
+
+        <h2>Blog d'histoire Maritime</h2>
+    
+<div class="grid">
+                    <figure class="effect-julia">
+                        <img src="images/marine1939.jpg" alt="Marine 1939"/>
+                        <figcaption>
+                            <div>
+                                <p>Marine 1939</p>
+                                <p>Un blog traitant d'histoire navale</p>
+                                <p>Illustré par ma collection de photographies anciennes</p>
+                            </div>
+                            <a href="http://marine1939.blogspot.com/" target="_blank">Découvrir</a>
+                        </figcaption>            
+                    </figure>
+                </div>
+
+
+
+    </div>
+    </div>
+    <br>
+    <div class="formations" id="formations">
+      <div class="titre_diploma">	
+    	<div class="diploma_ico"><img src="images/diploma.png" Alt="Diplômes"></div>
+    	<h1>MES FORMATIONS</h1>
+      </div>	
+        <div class="formation_lamanu">
+          <div class="logo_lamanu"><a href="https://lamanu.fr/" target="_blank"><img src="images/logo_lamanu.jpg" alt="UPJV"></a></div>
+          <div class="texte_lamanu">
+          <h2>Développeur de sites et d'applications Web</h2>
+            
+            <p>Ma reconversion dans le domaine du Développement Web s'est effectuée au sein de La Manu, labellisée Grande Ecole du numérique. J'ai pu développer les compétences techniques suivantes:</p>
+              <ul>
+              	<li>HTML5</li>
+              	<li>CSS3</li>
+              	<li>Javascript</li>
+              	<li>PhP</li>
+              </ul>
+             <p>Mais également les Frameworks suivants:</p>
+              <ul>
+              	<li>BootStrap</li>
+              	<li>AngularJS</li>
+              	<li>Symfony</li>
+              </ul>
+            <p>Cette formation m'a également permit de me familiariser avec des environnements professionnels sous Linux et Git sous l'angle de la gestion de projet et de l'autoformation.</p>
+            </div>
+        </div>   
+            <div class="formation_EXARIS">
+            <div class="logo_exaris"><a href="https://www.exaris.fr/" target="_blank"><img src="images/logo-exaris.png" alt="Exaris"></a></div>
+            <div class="texte_EXARIS">
+            <h2>Responsable Food Defense</h2>
+            <p>Dans le cadre de la mise à jour de la certification IFS en version 6, j'ai mis à contribution mon CPF pour me former à la protection de la chaîne alimentaire. Cette formation a été dispensée par la société Exaris et les compétences acquises étaient les suivantes:</p>
+              <ul>
+              	<li>Réaliser l'analyse de risque du site</li>
+              	<li>Gérer le tableau de bord automatisé</li>
+              	<li>Manager l'équipe Food Defense</li>
+              	<li>Proposer, étudier et réaliser les améliorations nécessaire à la sûreté du site</li>
+              </ul>
+            </div>
+        </div>
+
+          <div class="formation_UPJV">
+          <div class="logo_UPJV"><a href="https://www.u-picardie.fr/" target="_blank"><img src="images/Logo_UPJV.png" alt="UPJV"></a></div>
+          <div class="texte_UPJV">
+          <h2>Licence Biologie Générale</h2>
+            <p>Cursus réalisé au sein de l'Université de Picardie Jules Verne (UPJV). J'y ai acquis des connaissances en microbiologie, biochimie et géologie tout en réalisant des travaux scientifiques:</p>
+            <ul>
+            	<li>Etude de terrain traitant de la répartition d'epèces d'invertébrés sur un larris</li>
+            	<li>Etude comparative de deux procédés de dépollution des eaux usées : Bilan de rendement et optimisations</li>
+            </ul>
+          </div>
+          </div>
+    </div>
+
+
+
+
+    <br>
+    <div class="contact" id="contact">
+         <h1>CONTACTEZ-MOI</h1>
+         <div class="blocs_contact">
+          <div class="CV_download">
+         	<p>Mon profil vous intéresse?</p> 
+         	<p>Alors, téléchargez mon CV et contactez-moi!</p>
+         	<img src="images/pdf.png" alt="CV PDF">
+          </div>
+         <div class="formulaire">
+           <form method="post" action="traitement.php">
+         		 <div class="ligne_mail">
+         		 	<div class="logomail">
+         		 	  <img src="images/mail_contact.png" alt="E-mail">
+         		 	</div>
+                    <input class="email_bas" type="E-mail" name="email" id="email" placeholder="Votre E-mail"/>
+                    <input class="bouton_envoyer" type="submit" value="Envoyer"/>
+                </div>
+                   
+                    <input class="objet" type="text" placeholder="Objet de votre message"/>
+                   <br>
+                    <textarea placeholder="Rédigez votre message" rows="8"></textarea>
+                   <br />
+                   
+           </form>
+         	<br>
+         	</div>     	
+    </div>
+     </div>
+    <br>
+            
+  </div>      
+</div>
+
+<div class="fleche_retour">
+	         <a class="js-scrollTo" href="#haut"><img src="images/chevron.png" Alt="Retour"></a>
+           </div>  
+
+  <footer>
+	<p>Design by Wilfried Langry, Tous droits réservés.</p>
+	<p>Copyright© 2019</p>
+	<p>Icons made by <a href="https://www.flaticon.com/authors/chanut" title="Chanut">Chanut</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
+  </footer>
+
+ 
+
+  </body>
+ 
+</html>
+
