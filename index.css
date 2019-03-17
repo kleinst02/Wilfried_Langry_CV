@@ -327,7 +327,6 @@ figure.effect-julia{background:#2f3238}
   align-items: center;
   justify-content: center;
   width: 475px;
-  background-color: blue;
 }
 
 .texte_lamanu
@@ -348,7 +347,6 @@ figure.effect-julia{background:#2f3238}
   align-items: center;
   justify-content: center;
   width: 475px;
-  background-color: red;
 }
 
 .texte_EXARIS
@@ -376,7 +374,6 @@ figure.effect-julia{background:#2f3238}
 {
   display: flex;
   flex-direction: column;
-  background-color: red;
 }
 
 
